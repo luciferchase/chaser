@@ -142,9 +142,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-### Code Coverage ###
-'.coverage'
-
 ### Qt ###
 # C++ objects and libs
 *.slo
@@ -220,3 +217,9 @@ compile_commands.json
 !.vscode/*.code-snippets
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,qt
+
+# Code Coverage #
+'.coverage'
+
+# Experimental code
+foo.*
