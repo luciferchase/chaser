@@ -8,6 +8,8 @@ repos:
     -   id: end-of-file-fixer
     -   id: check-yaml
     -   id: check-added-large-files
+    -   id: mixed-line-ending
+    -   id: requirements-txt-fixer
 -   repo: https://gitlab.com/pycqa/flake8
     rev: 4.0.1
     hooks:
@@ -24,3 +26,9 @@ repos:
     rev: 5.4.2
     hooks:
     -   id: isort
+-   repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
+    rev: v1.1.1
+    hooks:
+    -   id: markdown-toc
+        # optional custom config:
+        args: [--indent, "    ", -i]
