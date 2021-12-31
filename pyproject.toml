@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "catalogger"
+name = "chaser"
 version = "0.1.0"
-description = "An application to cover all your needs to manage your Library"
+description = "A toy browser implementated in PyQt6"
 authors = ["Lucifer Chase <luciferchase.me@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 PyQt6 = "^6.2.2"
+PyQt6-WebEngine = "^6.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
